@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bylazar",
+    "module": "fullpanels",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.bylazar",
+          "module": "panels",
+          "version": {
+            "requires": "0.6.8-dev2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fullpanels-0.0.1.aar",
+          "url": "fullpanels-0.0.1.aar",
+          "size": 52112,
+          "sha512": "39b4f173ef448b303e4ff85ebdf0ea549fde7698e3ba0146e275a8518d0b0bbfa1c048a6646dfdf10f7e4aaf166b84c700ee4dca8fc91f1282670b258a38842a",
+          "sha256": "c9eb4543a14da0d0905678c8e87fd517fafcc728ce97ce797d4428fa1d207839",
+          "sha1": "f418c898b4fb14675ff845b85527f67371c51a35",
+          "md5": "0d4bb6e151d83b83802450ec9dc659df"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.bylazar",
+          "module": "panels",
+          "version": {
+            "requires": "0.6.8-dev2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fullpanels-0.0.1.aar",
+          "url": "fullpanels-0.0.1.aar",
+          "size": 52112,
+          "sha512": "39b4f173ef448b303e4ff85ebdf0ea549fde7698e3ba0146e275a8518d0b0bbfa1c048a6646dfdf10f7e4aaf166b84c700ee4dca8fc91f1282670b258a38842a",
+          "sha256": "c9eb4543a14da0d0905678c8e87fd517fafcc728ce97ce797d4428fa1d207839",
+          "sha1": "f418c898b4fb14675ff845b85527f67371c51a35",
+          "md5": "0d4bb6e151d83b83802450ec9dc659df"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "fullpanels-0.0.1-sources.jar",
+          "url": "fullpanels-0.0.1-sources.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}
