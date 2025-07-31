@@ -1,0 +1,99 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bylazar",
+    "module": "configurables",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurables-0.0.2.aar",
+          "url": "configurables-0.0.2.aar",
+          "size": 163212,
+          "sha512": "397e450980d411e4807dba9965b06a6d5cb01fdd538bf7feab497b49ad1f5ffd7443646a6d2e79c93c2a15683b59b54ff65764b02a0e87a23401c49596ec7af1",
+          "sha256": "1b81fac76089b75eb3d2c932d3d064e62135fc2df61d45261c95e640e54a34a2",
+          "sha1": "b885d945ab3092cabdd2f345171c710e5855d6d5",
+          "md5": "85e913745e7f64a7c2ca31def9ef912d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurables-0.0.2.aar",
+          "url": "configurables-0.0.2.aar",
+          "size": 163212,
+          "sha512": "397e450980d411e4807dba9965b06a6d5cb01fdd538bf7feab497b49ad1f5ffd7443646a6d2e79c93c2a15683b59b54ff65764b02a0e87a23401c49596ec7af1",
+          "sha256": "1b81fac76089b75eb3d2c932d3d064e62135fc2df61d45261c95e640e54a34a2",
+          "sha1": "b885d945ab3092cabdd2f345171c710e5855d6d5",
+          "md5": "85e913745e7f64a7c2ca31def9ef912d"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "configurables-0.0.2-sources.jar",
+          "url": "configurables-0.0.2-sources.jar",
+          "size": 27961,
+          "sha512": "d25b7e2830825ac66efe8b91da042504eb5a3a1fce7726d90ee6931af11d8bf95b41549a416d079f9f152cf3534d5db9dbe473e58cbcebea0e105f1528847ea0",
+          "sha256": "f9eb1ea30b237f4de4e2ffbefe110bd5cbcc4acb5c7d0ac67a2f04f21a359254",
+          "sha1": "a9613ecf0cf40d1b94a70f67454b3d34878fca90",
+          "md5": "a51629698b61e44f6c947b89883c4276"
+        }
+      ]
+    }
+  ]
+}

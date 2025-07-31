@@ -1,0 +1,99 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bylazar",
+    "module": "gamepad",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gamepad-0.0.2.aar",
+          "url": "gamepad-0.0.2.aar",
+          "size": 2871402,
+          "sha512": "b5b3d60e416d6c7664067889988cf28d65645670bf7231e58a9b7f1c6df23c5e0ff829a8b4eb5acf7453a46eb10402482fd5b0e53a47f4f8c289a2f8fa787617",
+          "sha256": "b161e7303b87a71c8d31d37e4e39dadf121c38990f660ae35f2857ae8c5ac6ae",
+          "sha1": "2c1ca1e23e636e6eaa4cc459773818ca90226d03",
+          "md5": "a09c01afb8aed13750ffb16674ced912"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gamepad-0.0.2.aar",
+          "url": "gamepad-0.0.2.aar",
+          "size": 2871402,
+          "sha512": "b5b3d60e416d6c7664067889988cf28d65645670bf7231e58a9b7f1c6df23c5e0ff829a8b4eb5acf7453a46eb10402482fd5b0e53a47f4f8c289a2f8fa787617",
+          "sha256": "b161e7303b87a71c8d31d37e4e39dadf121c38990f660ae35f2857ae8c5ac6ae",
+          "sha1": "2c1ca1e23e636e6eaa4cc459773818ca90226d03",
+          "md5": "a09c01afb8aed13750ffb16674ced912"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "gamepad-0.0.2-sources.jar",
+          "url": "gamepad-0.0.2-sources.jar",
+          "size": 4439,
+          "sha512": "074e7617d556bc6c264489be0065117e015ba4f8024be2079d9dd09a6fa95f8400c430678a3e4c7d634ee892078cf66b5255f45a4488de4c609fa33e0bf47315",
+          "sha256": "744e717a970498245c20d47e95d45d238bcef3ed49ed3fc4b0aa1910c222273f",
+          "sha1": "f37954fd8f0cea2591061accc314c624d7d8da05",
+          "md5": "e67c4952a4c6f3b302ce9975837e3ea7"
+        }
+      ]
+    }
+  ]
+}
