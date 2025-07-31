@@ -109,7 +109,7 @@
         },
         {
           "group": "com.bylazar",
-          "module": "battery",
+          "module": "utils",
           "version": {
             "requires": "0.0.1"
           }
@@ -229,7 +229,7 @@
         },
         {
           "group": "com.bylazar",
-          "module": "battery",
+          "module": "utils",
           "version": {
             "requires": "0.0.1"
           }
