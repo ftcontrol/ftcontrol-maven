@@ -27,7 +27,84 @@
           "group": "com.bylazar",
           "module": "panels",
           "version": {
-            "requires": "0.6.8-dev2"
+            "requires": "0.0.4"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "opmodecontrol",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "exampleplugin",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "telemetry",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "configurables",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "themes",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "capture",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "limelightproxy",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "gamepad",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "field",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "docs",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "battery",
+          "version": {
+            "requires": "0.0.1"
           }
         },
         {
@@ -42,11 +119,11 @@
         {
           "name": "fullpanels-0.0.1.aar",
           "url": "fullpanels-0.0.1.aar",
-          "size": 52112,
-          "sha512": "39b4f173ef448b303e4ff85ebdf0ea549fde7698e3ba0146e275a8518d0b0bbfa1c048a6646dfdf10f7e4aaf166b84c700ee4dca8fc91f1282670b258a38842a",
-          "sha256": "c9eb4543a14da0d0905678c8e87fd517fafcc728ce97ce797d4428fa1d207839",
-          "sha1": "f418c898b4fb14675ff845b85527f67371c51a35",
-          "md5": "0d4bb6e151d83b83802450ec9dc659df"
+          "size": 64651,
+          "sha512": "4ad7359c7dc537b65d5f06efab99e58dc66917774f4519288fbd609f5af288338ca3a44e962fb58be523e73d5d9fef12902924293271f9b01c58ddbad03b75c8",
+          "sha256": "4df555259cd56f23963270454d9c90df9db4e3acd605716b4a8bab8ae071cbfb",
+          "sha1": "f0e7799b22d97f45581504265579d074ea516eeb",
+          "md5": "49900d1d9702f8fc219bfee54cd1d148"
         }
       ]
     },
@@ -63,7 +140,84 @@
           "group": "com.bylazar",
           "module": "panels",
           "version": {
-            "requires": "0.6.8-dev2"
+            "requires": "0.0.4"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "opmodecontrol",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "exampleplugin",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "telemetry",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "configurables",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "themes",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "capture",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "limelightproxy",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "gamepad",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "field",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "docs",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "battery",
+          "version": {
+            "requires": "0.0.1"
           }
         },
         {
@@ -78,11 +232,11 @@
         {
           "name": "fullpanels-0.0.1.aar",
           "url": "fullpanels-0.0.1.aar",
-          "size": 52112,
-          "sha512": "39b4f173ef448b303e4ff85ebdf0ea549fde7698e3ba0146e275a8518d0b0bbfa1c048a6646dfdf10f7e4aaf166b84c700ee4dca8fc91f1282670b258a38842a",
-          "sha256": "c9eb4543a14da0d0905678c8e87fd517fafcc728ce97ce797d4428fa1d207839",
-          "sha1": "f418c898b4fb14675ff845b85527f67371c51a35",
-          "md5": "0d4bb6e151d83b83802450ec9dc659df"
+          "size": 64651,
+          "sha512": "4ad7359c7dc537b65d5f06efab99e58dc66917774f4519288fbd609f5af288338ca3a44e962fb58be523e73d5d9fef12902924293271f9b01c58ddbad03b75c8",
+          "sha256": "4df555259cd56f23963270454d9c90df9db4e3acd605716b4a8bab8ae071cbfb",
+          "sha1": "f0e7799b22d97f45581504265579d074ea516eeb",
+          "md5": "49900d1d9702f8fc219bfee54cd1d148"
         }
       ]
     },
@@ -101,11 +255,11 @@
         {
           "name": "fullpanels-0.0.1-sources.jar",
           "url": "fullpanels-0.0.1-sources.jar",
-          "size": 261,
-          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
-          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
-          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
-          "md5": "f43436d6bec321290f6af228ad602604"
+          "size": 1893,
+          "sha512": "3b49007bf7298578c8b712b3e1006291120dfbb806d259afd35e0afb010f16e3f83d187673cb06791ad30e608622c67bab6b350d608e510306f2037a7d435419",
+          "sha256": "cd16e6940d253b155f9c2a09ccb20495e877ddd9683f32550f187420ba9dac8f",
+          "sha1": "99a11f2e1b59704ecd173843703a48e8a6c44346",
+          "md5": "66b7e857805c5a803a232782794329db"
         }
       ]
     }

@@ -1,0 +1,99 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bylazar",
+    "module": "telemetry",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "telemetry-0.0.1.aar",
+          "url": "telemetry-0.0.1.aar",
+          "size": 88948,
+          "sha512": "cd1321e58bbb6528b9f1a8c96cfbf335a3cbbc713bd7b73b8058bae53945d485237c0c22d76ea6ff134ee587d359e2b0d0f00f603f9ef77b2f90e93e42fab59f",
+          "sha256": "947a3075c7e30c99372e42f29ee8e1580479ad25a29586b2d12d7d986b6ddf4f",
+          "sha1": "88cab219549849bd1236c36ec5c09380c61e2950",
+          "md5": "45880f731375cb875b38f21df977649c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "telemetry-0.0.1.aar",
+          "url": "telemetry-0.0.1.aar",
+          "size": 88948,
+          "sha512": "cd1321e58bbb6528b9f1a8c96cfbf335a3cbbc713bd7b73b8058bae53945d485237c0c22d76ea6ff134ee587d359e2b0d0f00f603f9ef77b2f90e93e42fab59f",
+          "sha256": "947a3075c7e30c99372e42f29ee8e1580479ad25a29586b2d12d7d986b6ddf4f",
+          "sha1": "88cab219549849bd1236c36ec5c09380c61e2950",
+          "md5": "45880f731375cb875b38f21df977649c"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "telemetry-0.0.1-sources.jar",
+          "url": "telemetry-0.0.1-sources.jar",
+          "size": 4361,
+          "sha512": "b586262ed56ae1eb951a0549725d91bb65d49108023deaf30a343a2bd92176d0f371803acf16a541922b0d0e96d1e77781c5174423897eb0a218d0093464e2ae",
+          "sha256": "d301b0ac116eb24765d1b86642d02aa49c7b2e18378ecde6ce285aa7367497c7",
+          "sha1": "8fe3065b2c83511adc1d080d5139957d0ae516e8",
+          "md5": "7610b1ff5ed90b56cc3f0f83ee79f709"
+        }
+      ]
+    }
+  ]
+}

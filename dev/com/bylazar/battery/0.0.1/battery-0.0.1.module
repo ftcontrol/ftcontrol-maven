@@ -1,0 +1,99 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bylazar",
+    "module": "battery",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "battery-0.0.1.aar",
+          "url": "battery-0.0.1.aar",
+          "size": 84834,
+          "sha512": "4b90136bb22dc5b1259fba06f0e9f1b932c1c8cd5eb8102bd6ff74ceeb93ecb03826da21c5f4043f6bf6d14f2ece31bc4ae5aadfae8c76c9301040e38a8a1231",
+          "sha256": "7cfb9ad742130c23e8a0b9afca89e7a2525f8b826babb12c2157d1605ca34513",
+          "sha1": "947e7df122db80308ad2af70a01579c6c137b514",
+          "md5": "f80776826cfed2de202e62253a3c2945"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "battery-0.0.1.aar",
+          "url": "battery-0.0.1.aar",
+          "size": 84834,
+          "sha512": "4b90136bb22dc5b1259fba06f0e9f1b932c1c8cd5eb8102bd6ff74ceeb93ecb03826da21c5f4043f6bf6d14f2ece31bc4ae5aadfae8c76c9301040e38a8a1231",
+          "sha256": "7cfb9ad742130c23e8a0b9afca89e7a2525f8b826babb12c2157d1605ca34513",
+          "sha1": "947e7df122db80308ad2af70a01579c6c137b514",
+          "md5": "f80776826cfed2de202e62253a3c2945"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "battery-0.0.1-sources.jar",
+          "url": "battery-0.0.1-sources.jar",
+          "size": 4125,
+          "sha512": "4e8fa262af448959b28f68ad254b393743e243fb0df453fb835e204fbdff297fa31c9b26453e3a31ceb093aa0915c362d3ba335809ff2407e1710fd2f9dfea75",
+          "sha256": "35854464f1befb9b4e616eb67fbe4e1a97f9c8f01ddc2a64751d5b44010cc238",
+          "sha1": "4d3ffe22334302e7816c3243b4986d301b5d4379",
+          "md5": "9d2509cbd404940997ff96f9673fe734"
+        }
+      ]
+    }
+  ]
+}

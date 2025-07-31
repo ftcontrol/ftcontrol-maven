@@ -11,11 +11,87 @@
   <artifactId>fullpanels</artifactId>
   <version>0.0.1</version>
   <packaging>aar</packaging>
+  <name>Full Panels</name>
+  <description>All in one toolbox dashboard for FTC with core plugins.</description>
+  <url>https://panels.bylazar.com</url>
+  <developers>
+    <developer>
+      <id>lazar</id>
+      <name>Lazar Dragos George</name>
+      <email>hi@bylazar.com</email>
+    </developer>
+  </developers>
   <dependencies>
     <dependency>
       <groupId>com.bylazar</groupId>
       <artifactId>panels</artifactId>
-      <version>0.6.8-dev2</version>
+      <version>0.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bylazar</groupId>
+      <artifactId>opmodecontrol</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bylazar</groupId>
+      <artifactId>exampleplugin</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bylazar</groupId>
+      <artifactId>telemetry</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bylazar</groupId>
+      <artifactId>configurables</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bylazar</groupId>
+      <artifactId>themes</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bylazar</groupId>
+      <artifactId>capture</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bylazar</groupId>
+      <artifactId>limelightproxy</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bylazar</groupId>
+      <artifactId>gamepad</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bylazar</groupId>
+      <artifactId>field</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bylazar</groupId>
+      <artifactId>docs</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.bylazar</groupId>
+      <artifactId>battery</artifactId>
+      <version>0.0.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
