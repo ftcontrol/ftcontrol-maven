@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bylazar",
+    "module": "panels",
+    "version": "0.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "panels-0.0.7.aar",
+          "url": "panels-0.0.7.aar",
+          "size": 263909,
+          "sha512": "788bdb2f5c97ec9dee645e4aee2e9597838da7fa01c319e9d8f55b430248e6005a9fdbe4ab35538f3dd6b5b181c8d0ee5f9dc8daec347dd245d8db066a066afa",
+          "sha256": "1745036e535c25f781b9f392f216ee2e9fd431795afc2382dd67a9ad0971ffbf",
+          "sha1": "f44c247e45fd0a9bbf02c632988a78fa80d89843",
+          "md5": "cbdddcdc4961da6cce1ba04743d4fb92"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.nanohttpd",
+          "module": "nanohttpd-websocket",
+          "version": {
+            "requires": "2.3.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "nanohttpd"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "org.tukaani",
+          "module": "xz",
+          "version": {
+            "requires": "1.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "panels-0.0.7.aar",
+          "url": "panels-0.0.7.aar",
+          "size": 263909,
+          "sha512": "788bdb2f5c97ec9dee645e4aee2e9597838da7fa01c319e9d8f55b430248e6005a9fdbe4ab35538f3dd6b5b181c8d0ee5f9dc8daec347dd245d8db066a066afa",
+          "sha256": "1745036e535c25f781b9f392f216ee2e9fd431795afc2382dd67a9ad0971ffbf",
+          "sha1": "f44c247e45fd0a9bbf02c632988a78fa80d89843",
+          "md5": "cbdddcdc4961da6cce1ba04743d4fb92"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "panels-0.0.7-sources.jar",
+          "url": "panels-0.0.7-sources.jar",
+          "size": 34657,
+          "sha512": "d393b5c6bd36c1dfd9e1ea07bf794ae4e619d703d97f51407ed086abe23460854bca851b60bd45ef248b16abf04ee48cbaa44809be4194b8c6d3de5374b4c20d",
+          "sha256": "2fd1d9162071ef681abd13939ab7af5ed70e60fd5f2e557f802da815e2b69c92",
+          "sha1": "d578c0f86522cb908b8551c8b9ede7f08d5ed8f4",
+          "md5": "eba8d6f2c48037df90016f21d8c93c60"
+        }
+      ]
+    }
+  ]
+}
