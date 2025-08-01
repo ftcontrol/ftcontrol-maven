@@ -35,11 +35,11 @@
         {
           "name": "opmodecontrol-0.0.2.aar",
           "url": "opmodecontrol-0.0.2.aar",
-          "size": 102001,
-          "sha512": "85c5c631bc1b2d44c038e38175c84b9fa54788b737aeaec4058993a7821acd478db20087509e2e5b567fd2b3a24e2e0d8be6e167435b7055636f54613d1b78b6",
-          "sha256": "1e98316e7c6716a2ac1ed46f75552abf213fcfb15bcf565f7d3afdc9e9c0892f",
-          "sha1": "ebe5e6b57306421be5f3a48b8b114b6462535787",
-          "md5": "a8a633904bb516231407b07b3dadb46b"
+          "size": 102031,
+          "sha512": "7aba17fb5d8bc992bb7567d0a42b9b90f60462cd77d5580a37b5980d15884e42787ff038d7f5398ac7b1b30aec4b03205da9083f76ea0a29b9d84ca7d5309719",
+          "sha256": "fe8b7a116dd3435e665c66098137bfb74d6b4bf9a5ef47de22cc28e7a9ee9bde",
+          "sha1": "5ce25bcf876f954c345164eb676b83e215796fb3",
+          "md5": "2e1826af095d188809f0e1605d7b83c8"
         }
       ]
     },
@@ -64,11 +64,11 @@
         {
           "name": "opmodecontrol-0.0.2.aar",
           "url": "opmodecontrol-0.0.2.aar",
-          "size": 102001,
-          "sha512": "85c5c631bc1b2d44c038e38175c84b9fa54788b737aeaec4058993a7821acd478db20087509e2e5b567fd2b3a24e2e0d8be6e167435b7055636f54613d1b78b6",
-          "sha256": "1e98316e7c6716a2ac1ed46f75552abf213fcfb15bcf565f7d3afdc9e9c0892f",
-          "sha1": "ebe5e6b57306421be5f3a48b8b114b6462535787",
-          "md5": "a8a633904bb516231407b07b3dadb46b"
+          "size": 102031,
+          "sha512": "7aba17fb5d8bc992bb7567d0a42b9b90f60462cd77d5580a37b5980d15884e42787ff038d7f5398ac7b1b30aec4b03205da9083f76ea0a29b9d84ca7d5309719",
+          "sha256": "fe8b7a116dd3435e665c66098137bfb74d6b4bf9a5ef47de22cc28e7a9ee9bde",
+          "sha1": "5ce25bcf876f954c345164eb676b83e215796fb3",
+          "md5": "2e1826af095d188809f0e1605d7b83c8"
         }
       ]
     },

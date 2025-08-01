@@ -35,11 +35,11 @@
         {
           "name": "configurables-0.0.2.aar",
           "url": "configurables-0.0.2.aar",
-          "size": 163212,
-          "sha512": "397e450980d411e4807dba9965b06a6d5cb01fdd538bf7feab497b49ad1f5ffd7443646a6d2e79c93c2a15683b59b54ff65764b02a0e87a23401c49596ec7af1",
-          "sha256": "1b81fac76089b75eb3d2c932d3d064e62135fc2df61d45261c95e640e54a34a2",
-          "sha1": "b885d945ab3092cabdd2f345171c710e5855d6d5",
-          "md5": "85e913745e7f64a7c2ca31def9ef912d"
+          "size": 163239,
+          "sha512": "f667115811c48201b9dd2f23ecc06a93b4ac00f06ad7c0d1e261cb38b0eae371254d8632f4796e8086aa35e88e3ab05ac600d14ecd3dc7da305b9390267d993e",
+          "sha256": "28ba76ccc29adce71d2c20dfa1ff570ba7e8d6fbbb07e9df115429bdae3af3b8",
+          "sha1": "85eb51041175aec68e1c4ddc570cb7786f47b398",
+          "md5": "c40df0f9a7d5d911ebc539138bcff55e"
         }
       ]
     },
@@ -64,11 +64,11 @@
         {
           "name": "configurables-0.0.2.aar",
           "url": "configurables-0.0.2.aar",
-          "size": 163212,
-          "sha512": "397e450980d411e4807dba9965b06a6d5cb01fdd538bf7feab497b49ad1f5ffd7443646a6d2e79c93c2a15683b59b54ff65764b02a0e87a23401c49596ec7af1",
-          "sha256": "1b81fac76089b75eb3d2c932d3d064e62135fc2df61d45261c95e640e54a34a2",
-          "sha1": "b885d945ab3092cabdd2f345171c710e5855d6d5",
-          "md5": "85e913745e7f64a7c2ca31def9ef912d"
+          "size": 163239,
+          "sha512": "f667115811c48201b9dd2f23ecc06a93b4ac00f06ad7c0d1e261cb38b0eae371254d8632f4796e8086aa35e88e3ab05ac600d14ecd3dc7da305b9390267d993e",
+          "sha256": "28ba76ccc29adce71d2c20dfa1ff570ba7e8d6fbbb07e9df115429bdae3af3b8",
+          "sha1": "85eb51041175aec68e1c4ddc570cb7786f47b398",
+          "md5": "c40df0f9a7d5d911ebc539138bcff55e"
         }
       ]
     },
