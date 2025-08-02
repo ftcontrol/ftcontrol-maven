@@ -15,83 +15,60 @@
   },
   "variants": [
     {
-      "name": "releaseApiElements-published",
+      "name": "releaseVariantReleaseApiPublication",
       "attributes": {
         "org.gradle.category": "library",
-        "org.gradle.jvm.environment": "android",
-        "org.gradle.usage": "java-api",
-        "org.jetbrains.kotlin.platform.type": "androidJvm"
-      },
-      "dependencies": [
-        {
-          "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib",
-          "version": {
-            "requires": "2.1.20"
-          }
-        }
-      ],
-      "files": [
-        {
-          "name": "capture-0.0.2.aar",
-          "url": "capture-0.0.2.aar",
-          "size": 92032,
-          "sha512": "96e97d68f3dadd4561589624830c8cfb8dffd71c8f3b69bd4ed80036263bed7f533b968ca6ac0d7a09a60661b3e3609ff17c695ac3aa928b15fe7bac068d0790",
-          "sha256": "b5b6ab3c339795334f7b8ccfb6013031a661cac163ce7d33abcffa6972eada10",
-          "sha1": "4150b3c979e704f32458b8cb9dec9bd56512ff2a",
-          "md5": "f0878c2550b43cf37dc3e95d8923a611"
-        }
-      ]
-    },
-    {
-      "name": "releaseRuntimeElements-published",
-      "attributes": {
-        "org.gradle.category": "library",
-        "org.gradle.jvm.environment": "android",
-        "org.gradle.usage": "java-runtime",
-        "org.jetbrains.kotlin.platform.type": "androidJvm"
-      },
-      "dependencies": [
-        {
-          "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib",
-          "version": {
-            "requires": "2.1.20"
-          }
-        }
-      ],
-      "files": [
-        {
-          "name": "capture-0.0.2.aar",
-          "url": "capture-0.0.2.aar",
-          "size": 92032,
-          "sha512": "96e97d68f3dadd4561589624830c8cfb8dffd71c8f3b69bd4ed80036263bed7f533b968ca6ac0d7a09a60661b3e3609ff17c695ac3aa928b15fe7bac068d0790",
-          "sha256": "b5b6ab3c339795334f7b8ccfb6013031a661cac163ce7d33abcffa6972eada10",
-          "sha1": "4150b3c979e704f32458b8cb9dec9bd56512ff2a",
-          "md5": "f0878c2550b43cf37dc3e95d8923a611"
-        }
-      ]
-    },
-    {
-      "name": "releaseSourcesElements-published",
-      "attributes": {
-        "org.gradle.category": "documentation",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.docstype": "sources",
-        "org.gradle.jvm.environment": "android",
-        "org.gradle.libraryelements": "jar",
-        "org.gradle.usage": "java-runtime",
-        "org.jetbrains.kotlin.platform.type": "androidJvm"
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
       },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
       "files": [
         {
-          "name": "capture-0.0.2-sources.jar",
-          "url": "capture-0.0.2-sources.jar",
-          "size": 1857,
-          "sha512": "f1c78f27ca57225885220dde158797bbbdb62fcde9676358725e27cc3b3ad8ced927e679fb22a3945ccb6dbed676526b1ae6f197c1075511fe030a3a8315457c",
-          "sha256": "564d4b8fb3b1b9ad48687df77dc0d0758f8e6016fd166e78d73429b389dbcb35",
-          "sha1": "d43506f22653ddaa9ea54b98a87d40d0ce7a040e",
-          "md5": "b09e5a53833c2dad80cf7cad5d374bde"
+          "name": "capture-0.0.2.aar",
+          "url": "capture-0.0.2.aar",
+          "size": 93984,
+          "sha512": "6b2fa963923ccb220223b61990679fef5c96f49fb71093b5039f9dc4ca627f1d1f59bc40b790f854116136c83f556eecafa3750c2d076881e49619f8f0bc9021",
+          "sha256": "495023e16c4ef6188fb142cd730c36372752b8df6c6d2144102c5ce024a29f1e",
+          "sha1": "7d417c9ff140bb7d56f060b450d7171fb5798cdd",
+          "md5": "977553ef02f6a3333943dacf14ace578"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "capture-0.0.2.aar",
+          "url": "capture-0.0.2.aar",
+          "size": 93984,
+          "sha512": "6b2fa963923ccb220223b61990679fef5c96f49fb71093b5039f9dc4ca627f1d1f59bc40b790f854116136c83f556eecafa3750c2d076881e49619f8f0bc9021",
+          "sha256": "495023e16c4ef6188fb142cd730c36372752b8df6c6d2144102c5ce024a29f1e",
+          "sha1": "7d417c9ff140bb7d56f060b450d7171fb5798cdd",
+          "md5": "977553ef02f6a3333943dacf14ace578"
         }
       ]
     }

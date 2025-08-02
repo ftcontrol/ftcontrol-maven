@@ -15,83 +15,60 @@
   },
   "variants": [
     {
-      "name": "releaseApiElements-published",
+      "name": "releaseVariantReleaseApiPublication",
       "attributes": {
         "org.gradle.category": "library",
-        "org.gradle.jvm.environment": "android",
-        "org.gradle.usage": "java-api",
-        "org.jetbrains.kotlin.platform.type": "androidJvm"
-      },
-      "dependencies": [
-        {
-          "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib",
-          "version": {
-            "requires": "2.1.20"
-          }
-        }
-      ],
-      "files": [
-        {
-          "name": "telemetry-0.0.2.aar",
-          "url": "telemetry-0.0.2.aar",
-          "size": 88948,
-          "sha512": "7b0d3c217a1cee736b7bb3b337d067252dd464f9d306bfe5606ebd66c4d083a7aa54ee20106e53fcaaa231943c62044379d7c09372e2927ebad1ca4659e41221",
-          "sha256": "87ea3a460e18924ce1bd5d48f0b643db4bfad7f7388fb3678184049cc8df656d",
-          "sha1": "a29aef8db8d6eeb68b676fd3a6e7f4ecbf6e5212",
-          "md5": "ab6e9a403ee76ef5ccce7b579c573029"
-        }
-      ]
-    },
-    {
-      "name": "releaseRuntimeElements-published",
-      "attributes": {
-        "org.gradle.category": "library",
-        "org.gradle.jvm.environment": "android",
-        "org.gradle.usage": "java-runtime",
-        "org.jetbrains.kotlin.platform.type": "androidJvm"
-      },
-      "dependencies": [
-        {
-          "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib",
-          "version": {
-            "requires": "2.1.20"
-          }
-        }
-      ],
-      "files": [
-        {
-          "name": "telemetry-0.0.2.aar",
-          "url": "telemetry-0.0.2.aar",
-          "size": 88948,
-          "sha512": "7b0d3c217a1cee736b7bb3b337d067252dd464f9d306bfe5606ebd66c4d083a7aa54ee20106e53fcaaa231943c62044379d7c09372e2927ebad1ca4659e41221",
-          "sha256": "87ea3a460e18924ce1bd5d48f0b643db4bfad7f7388fb3678184049cc8df656d",
-          "sha1": "a29aef8db8d6eeb68b676fd3a6e7f4ecbf6e5212",
-          "md5": "ab6e9a403ee76ef5ccce7b579c573029"
-        }
-      ]
-    },
-    {
-      "name": "releaseSourcesElements-published",
-      "attributes": {
-        "org.gradle.category": "documentation",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.docstype": "sources",
-        "org.gradle.jvm.environment": "android",
-        "org.gradle.libraryelements": "jar",
-        "org.gradle.usage": "java-runtime",
-        "org.jetbrains.kotlin.platform.type": "androidJvm"
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
       },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
       "files": [
         {
-          "name": "telemetry-0.0.2-sources.jar",
-          "url": "telemetry-0.0.2-sources.jar",
-          "size": 4361,
-          "sha512": "b586262ed56ae1eb951a0549725d91bb65d49108023deaf30a343a2bd92176d0f371803acf16a541922b0d0e96d1e77781c5174423897eb0a218d0093464e2ae",
-          "sha256": "d301b0ac116eb24765d1b86642d02aa49c7b2e18378ecde6ce285aa7367497c7",
-          "sha1": "8fe3065b2c83511adc1d080d5139957d0ae516e8",
-          "md5": "7610b1ff5ed90b56cc3f0f83ee79f709"
+          "name": "telemetry-0.0.2.aar",
+          "url": "telemetry-0.0.2.aar",
+          "size": 89182,
+          "sha512": "29092f01438df06ec737d3caa72fd742029a5d17fdcff60e6ffef73c9d7588dda93282bc675dc5ff662afccd9e021649cd23a17e663291d5e1a4f6318f58b16f",
+          "sha256": "84275c85bf93baa64df1e362ac03964c58066c63b4ba8b892ffa147b0b36d16f",
+          "sha1": "25be6cd81951df02d7170bff648cf07c885a3814",
+          "md5": "4d68d40736f59f65a09c04daca22500b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "telemetry-0.0.2.aar",
+          "url": "telemetry-0.0.2.aar",
+          "size": 89182,
+          "sha512": "29092f01438df06ec737d3caa72fd742029a5d17fdcff60e6ffef73c9d7588dda93282bc675dc5ff662afccd9e021649cd23a17e663291d5e1a4f6318f58b16f",
+          "sha256": "84275c85bf93baa64df1e362ac03964c58066c63b4ba8b892ffa147b0b36d16f",
+          "sha1": "25be6cd81951df02d7170bff648cf07c885a3814",
+          "md5": "4d68d40736f59f65a09c04daca22500b"
         }
       ]
     }

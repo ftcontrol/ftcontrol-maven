@@ -15,83 +15,60 @@
   },
   "variants": [
     {
-      "name": "releaseApiElements-published",
+      "name": "releaseVariantReleaseApiPublication",
       "attributes": {
         "org.gradle.category": "library",
-        "org.gradle.jvm.environment": "android",
-        "org.gradle.usage": "java-api",
-        "org.jetbrains.kotlin.platform.type": "androidJvm"
-      },
-      "dependencies": [
-        {
-          "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib",
-          "version": {
-            "requires": "2.1.20"
-          }
-        }
-      ],
-      "files": [
-        {
-          "name": "field-0.0.2.aar",
-          "url": "field-0.0.2.aar",
-          "size": 797625,
-          "sha512": "1a466955e68224139536df0853bfc6f0a6cbfa040a752d91fddbfe691ff974b00ad01695f98eec3a39e865aaa7cbcc3443590d11e4bd686af2507c1cfd69b29c",
-          "sha256": "1b011e93ac666b300166c7611ad5d183e137138fdf91a80c914e904ab4802726",
-          "sha1": "12c711537d36c4b41c6f176720ffe197310d9320",
-          "md5": "3b14754aa6d4906b41557ed068446a4a"
-        }
-      ]
-    },
-    {
-      "name": "releaseRuntimeElements-published",
-      "attributes": {
-        "org.gradle.category": "library",
-        "org.gradle.jvm.environment": "android",
-        "org.gradle.usage": "java-runtime",
-        "org.jetbrains.kotlin.platform.type": "androidJvm"
-      },
-      "dependencies": [
-        {
-          "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib",
-          "version": {
-            "requires": "2.1.20"
-          }
-        }
-      ],
-      "files": [
-        {
-          "name": "field-0.0.2.aar",
-          "url": "field-0.0.2.aar",
-          "size": 797625,
-          "sha512": "1a466955e68224139536df0853bfc6f0a6cbfa040a752d91fddbfe691ff974b00ad01695f98eec3a39e865aaa7cbcc3443590d11e4bd686af2507c1cfd69b29c",
-          "sha256": "1b011e93ac666b300166c7611ad5d183e137138fdf91a80c914e904ab4802726",
-          "sha1": "12c711537d36c4b41c6f176720ffe197310d9320",
-          "md5": "3b14754aa6d4906b41557ed068446a4a"
-        }
-      ]
-    },
-    {
-      "name": "releaseSourcesElements-published",
-      "attributes": {
-        "org.gradle.category": "documentation",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.docstype": "sources",
-        "org.gradle.jvm.environment": "android",
-        "org.gradle.libraryelements": "jar",
-        "org.gradle.usage": "java-runtime",
-        "org.jetbrains.kotlin.platform.type": "androidJvm"
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
       },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
       "files": [
         {
-          "name": "field-0.0.2-sources.jar",
-          "url": "field-0.0.2-sources.jar",
-          "size": 1382785,
-          "sha512": "f3cdac1f5f47a851aab0d1123121f33afab26d01f21d09f540449d060b4438a4c455bb00a1d41e00244bac0e5404f461d3dda116f29b19074bb43547a1e12c76",
-          "sha256": "f784156a6743bc02cba7b1f6a092cb353332b82c3caef6177819aab1f988bd91",
-          "sha1": "c19ea04bcf6ec41f735a9cbaa0f4ef40c2d1203f",
-          "md5": "da22e1c7128ec8aec5506b0132a9eadd"
+          "name": "field-0.0.2.aar",
+          "url": "field-0.0.2.aar",
+          "size": 746285,
+          "sha512": "3d7e4811dc27e034e79c295252d433d1f6259a6951b81fe2c07d6dfd8c5854f119ea24a800278d4926d8e04ab735890c70146cde017f5e18b204135c6ea447f2",
+          "sha256": "fe559d2652f98082675d65090eec5d62bf7333767537c08f2e2121d3bb24b638",
+          "sha1": "f157447d2b295504717a9e5a4c141b1ac2ed98fa",
+          "md5": "74eaad868e0262ead465ae064ef44f69"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "field-0.0.2.aar",
+          "url": "field-0.0.2.aar",
+          "size": 746285,
+          "sha512": "3d7e4811dc27e034e79c295252d433d1f6259a6951b81fe2c07d6dfd8c5854f119ea24a800278d4926d8e04ab735890c70146cde017f5e18b204135c6ea447f2",
+          "sha256": "fe559d2652f98082675d65090eec5d62bf7333767537c08f2e2121d3bb24b638",
+          "sha1": "f157447d2b295504717a9e5a4c141b1ac2ed98fa",
+          "md5": "74eaad868e0262ead465ae064ef44f69"
         }
       ]
     }
