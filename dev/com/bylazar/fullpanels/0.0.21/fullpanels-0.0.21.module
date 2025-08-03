@@ -1,0 +1,244 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bylazar",
+    "module": "fullpanels",
+    "version": "0.0.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.bylazar",
+          "module": "panels",
+          "version": {
+            "requires": "0.0.11"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "opmodecontrol",
+          "version": {
+            "requires": "0.0.2"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "telemetry",
+          "version": {
+            "requires": "0.0.3"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "configurables",
+          "version": {
+            "requires": "0.0.4"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "themes",
+          "version": {
+            "requires": "0.0.3"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "capture",
+          "version": {
+            "requires": "0.0.2"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "limelightproxy",
+          "version": {
+            "requires": "0.0.3"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "gamepad",
+          "version": {
+            "requires": "0.0.3"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "field",
+          "version": {
+            "requires": "0.0.3"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "docs",
+          "version": {
+            "requires": "0.0.2"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "battery",
+          "version": {
+            "requires": "0.0.2"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "utils",
+          "version": {
+            "requires": "0.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fullpanels-0.0.21.aar",
+          "url": "fullpanels-0.0.21.aar",
+          "size": 64540,
+          "sha512": "9735f431f87e672ee1db8e0808628f1a6f9af47bbfeb3ac75f8a272ab8df3e0b4d028219241ec244655402db0ef66feb62c0f791fe3d6812c875aff6b1200db3",
+          "sha256": "7a8f9fbe225d4361a0e85f37fd6b5cbb74081f6c94ab0bf8abcb1646e4da842d",
+          "sha1": "0af11b28b03ac44a8c6294aa7e5566a9b43a1a7d",
+          "md5": "4780483bbbb2e5dc4ff2b91e8d610d7c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.bylazar",
+          "module": "panels",
+          "version": {
+            "requires": "0.0.11"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "opmodecontrol",
+          "version": {
+            "requires": "0.0.2"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "telemetry",
+          "version": {
+            "requires": "0.0.3"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "configurables",
+          "version": {
+            "requires": "0.0.4"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "themes",
+          "version": {
+            "requires": "0.0.3"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "capture",
+          "version": {
+            "requires": "0.0.2"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "limelightproxy",
+          "version": {
+            "requires": "0.0.3"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "gamepad",
+          "version": {
+            "requires": "0.0.3"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "field",
+          "version": {
+            "requires": "0.0.3"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "docs",
+          "version": {
+            "requires": "0.0.2"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "battery",
+          "version": {
+            "requires": "0.0.2"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "utils",
+          "version": {
+            "requires": "0.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fullpanels-0.0.21.aar",
+          "url": "fullpanels-0.0.21.aar",
+          "size": 64540,
+          "sha512": "9735f431f87e672ee1db8e0808628f1a6f9af47bbfeb3ac75f8a272ab8df3e0b4d028219241ec244655402db0ef66feb62c0f791fe3d6812c875aff6b1200db3",
+          "sha256": "7a8f9fbe225d4361a0e85f37fd6b5cbb74081f6c94ab0bf8abcb1646e4da842d",
+          "sha1": "0af11b28b03ac44a8c6294aa7e5566a9b43a1a7d",
+          "md5": "4780483bbbb2e5dc4ff2b91e8d610d7c"
+        }
+      ]
+    }
+  ]
+}
