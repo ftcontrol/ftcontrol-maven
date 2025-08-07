@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bylazar",
+    "module": "panels",
+    "version": "0.0.13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "panels-0.0.13.aar",
+          "url": "panels-0.0.13.aar",
+          "size": 284491,
+          "sha512": "4f15b179c0c4871fc9fcdbec670a09691cd179b46c721022a4aedd5139def5ce618330d2e3aeb95d391dbd1f579653da4aad33f28e0abb704fb0a6d72564db3e",
+          "sha256": "33b27b0c68d7fe810f71cc94799484969bfe87d46d318deac1b7363582cd1fa0",
+          "sha1": "37b1528f541230deded3d11a0896f04b71948999",
+          "md5": "45960d27410a16b17baf50db1d35d7c4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.nanohttpd",
+          "module": "nanohttpd-websocket",
+          "version": {
+            "requires": "2.3.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "nanohttpd"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "org.tukaani",
+          "module": "xz",
+          "version": {
+            "requires": "1.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "panels-0.0.13.aar",
+          "url": "panels-0.0.13.aar",
+          "size": 284491,
+          "sha512": "4f15b179c0c4871fc9fcdbec670a09691cd179b46c721022a4aedd5139def5ce618330d2e3aeb95d391dbd1f579653da4aad33f28e0abb704fb0a6d72564db3e",
+          "sha256": "33b27b0c68d7fe810f71cc94799484969bfe87d46d318deac1b7363582cd1fa0",
+          "sha1": "37b1528f541230deded3d11a0896f04b71948999",
+          "md5": "45960d27410a16b17baf50db1d35d7c4"
+        }
+      ]
+    }
+  ]
+}
