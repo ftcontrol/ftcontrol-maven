@@ -35,11 +35,11 @@
         {
           "name": "themes-0.0.9.aar",
           "url": "themes-0.0.9.aar",
-          "size": 1072378,
-          "sha512": "b71e3aba8f5fdf76c06f8f2958a2a253279ad2759e882ece9375dbc55239c939f4dd8888f7f7eb0da223fbed035771341fa5f7c2780dfd75aa6af00698a537d5",
-          "sha256": "a576bea9a761e123b2ef43b284347145dd0f1ee1d3079cec9a9444c688c9286d",
-          "sha1": "30a0b34e64a97800ccd261b49e5c3a69ee76b0d3",
-          "md5": "f12232654293dc70a1075c3a426df455"
+          "size": 1074294,
+          "sha512": "1a36af9c621fc811740cec378d19cc499f2796326795a1adb2a6c4996a377e072f8552c0f5d5e1a34edfb3c9772cf93ebd366ad1f34a383257b651c14dbaa800",
+          "sha256": "264d9e8e9cd0d25c7c7cccb6579e070c80532e5e4835523257b82a9418a0c21b",
+          "sha1": "d5703c2b2c221681b131387b685d075d73f75862",
+          "md5": "99ca85cdd8acbbd6b4fe908a01056232"
         }
       ]
     },
@@ -64,11 +64,11 @@
         {
           "name": "themes-0.0.9.aar",
           "url": "themes-0.0.9.aar",
-          "size": 1072378,
-          "sha512": "b71e3aba8f5fdf76c06f8f2958a2a253279ad2759e882ece9375dbc55239c939f4dd8888f7f7eb0da223fbed035771341fa5f7c2780dfd75aa6af00698a537d5",
-          "sha256": "a576bea9a761e123b2ef43b284347145dd0f1ee1d3079cec9a9444c688c9286d",
-          "sha1": "30a0b34e64a97800ccd261b49e5c3a69ee76b0d3",
-          "md5": "f12232654293dc70a1075c3a426df455"
+          "size": 1074294,
+          "sha512": "1a36af9c621fc811740cec378d19cc499f2796326795a1adb2a6c4996a377e072f8552c0f5d5e1a34edfb3c9772cf93ebd366ad1f34a383257b651c14dbaa800",
+          "sha256": "264d9e8e9cd0d25c7c7cccb6579e070c80532e5e4835523257b82a9418a0c21b",
+          "sha1": "d5703c2b2c221681b131387b685d075d73f75862",
+          "md5": "99ca85cdd8acbbd6b4fe908a01056232"
         }
       ]
     }

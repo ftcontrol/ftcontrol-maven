@@ -35,11 +35,11 @@
         {
           "name": "telemetry-0.0.6.aar",
           "url": "telemetry-0.0.6.aar",
-          "size": 89597,
-          "sha512": "6245bff50210ded07d323cf0fbfc2159810d01efc1eafd5e20b0d4f2d38d6dd9218cb169058dd016f199caca556cdc9524ce0d0c8244e59af8d6385031e6ce06",
-          "sha256": "af9354886a8e1f7b24088816b1f51b26dbc0aa2a580e6395d7c02f75e42cbbd1",
-          "sha1": "31161e25f6bee05061c54f629393018395e99557",
-          "md5": "649c27fc14bafe9a07abec437207905d"
+          "size": 93841,
+          "sha512": "0194d4d1f8509fadd4b01db8aa1ff725eaac7113c46e9bf91755754f2808711688093f543133c7bd11bd46d64fadb54e94c557ba7889f222ebbb4ec3b5319e87",
+          "sha256": "bf26f0cedd7a4d65a03efd6522eb480e6a89b55311728f9524a4d38a64bb6cb8",
+          "sha1": "805e3aeb9e16f78782f52098c2b1aad65e848fdf",
+          "md5": "ad231674820cbbe4d913efaaa4719792"
         }
       ]
     },
@@ -64,11 +64,11 @@
         {
           "name": "telemetry-0.0.6.aar",
           "url": "telemetry-0.0.6.aar",
-          "size": 89597,
-          "sha512": "6245bff50210ded07d323cf0fbfc2159810d01efc1eafd5e20b0d4f2d38d6dd9218cb169058dd016f199caca556cdc9524ce0d0c8244e59af8d6385031e6ce06",
-          "sha256": "af9354886a8e1f7b24088816b1f51b26dbc0aa2a580e6395d7c02f75e42cbbd1",
-          "sha1": "31161e25f6bee05061c54f629393018395e99557",
-          "md5": "649c27fc14bafe9a07abec437207905d"
+          "size": 93841,
+          "sha512": "0194d4d1f8509fadd4b01db8aa1ff725eaac7113c46e9bf91755754f2808711688093f543133c7bd11bd46d64fadb54e94c557ba7889f222ebbb4ec3b5319e87",
+          "sha256": "bf26f0cedd7a4d65a03efd6522eb480e6a89b55311728f9524a4d38a64bb6cb8",
+          "sha1": "805e3aeb9e16f78782f52098c2b1aad65e848fdf",
+          "md5": "ad231674820cbbe4d913efaaa4719792"
         }
       ]
     }

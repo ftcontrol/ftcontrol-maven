@@ -35,11 +35,11 @@
         {
           "name": "battery-0.0.7.aar",
           "url": "battery-0.0.7.aar",
-          "size": 372729,
-          "sha512": "849baff3ed3e9449bec7758cf0ddd2ff4af3ad0e21979f0daece7bd8579564172f21cd4cc89f1cc8d943c2410eba92241e045bd40397b03c4b15e1a8dc44929c",
-          "sha256": "8f13b5657a9ed4b8253428b1dd14f2a3d068f554d9a4f675e9341240747a1ad6",
-          "sha1": "92b06070214049e006d7f6d56e40b3db38737c73",
-          "md5": "d645d8d0186e053fc13dc72ca365fbc0"
+          "size": 374218,
+          "sha512": "ff3cec9328060d2a440f53d9c5a0a89dea73474a53b6782cb999746f2d5ef1cd678d5b117e0ef47e2ab322dee0085d2b75862cdb0893fcd11cbd7566a09bdf97",
+          "sha256": "06907b6b10d02eaf64dbffff32ccf77ef91a969d56a1196e2af3b3e009cdb937",
+          "sha1": "32381d41a932f70fc1bc6c555b04821e8a68689d",
+          "md5": "cdd000483ee0fc838de143181d908281"
         }
       ]
     },
@@ -64,11 +64,11 @@
         {
           "name": "battery-0.0.7.aar",
           "url": "battery-0.0.7.aar",
-          "size": 372729,
-          "sha512": "849baff3ed3e9449bec7758cf0ddd2ff4af3ad0e21979f0daece7bd8579564172f21cd4cc89f1cc8d943c2410eba92241e045bd40397b03c4b15e1a8dc44929c",
-          "sha256": "8f13b5657a9ed4b8253428b1dd14f2a3d068f554d9a4f675e9341240747a1ad6",
-          "sha1": "92b06070214049e006d7f6d56e40b3db38737c73",
-          "md5": "d645d8d0186e053fc13dc72ca365fbc0"
+          "size": 374218,
+          "sha512": "ff3cec9328060d2a440f53d9c5a0a89dea73474a53b6782cb999746f2d5ef1cd678d5b117e0ef47e2ab322dee0085d2b75862cdb0893fcd11cbd7566a09bdf97",
+          "sha256": "06907b6b10d02eaf64dbffff32ccf77ef91a969d56a1196e2af3b3e009cdb937",
+          "sha1": "32381d41a932f70fc1bc6c555b04821e8a68689d",
+          "md5": "cdd000483ee0fc838de143181d908281"
         }
       ]
     }
