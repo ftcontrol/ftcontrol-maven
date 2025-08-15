@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bylazar",
+    "module": "configurables",
+    "version": "0.0.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurables-0.0.12.aar",
+          "url": "configurables-0.0.12.aar",
+          "size": 927185,
+          "sha512": "988cb37e8a90579cc94391853a31bda2d31b0742fc18130c6be762eb711aac6cdedec8db83d3568634d863b55fc5032ffbbd802318c9a290c7d49425aab45dd4",
+          "sha256": "090b1b3fcdb69b9a89a28a161e1eafbbb31784ed06e829cba38154ff1e9ece9b",
+          "sha1": "ef8381e095ad1c8df6f995700ae9fc15bb4e32dc",
+          "md5": "01026994d7c7c45833f7cfaa8b861d26"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurables-0.0.12.aar",
+          "url": "configurables-0.0.12.aar",
+          "size": 927185,
+          "sha512": "988cb37e8a90579cc94391853a31bda2d31b0742fc18130c6be762eb711aac6cdedec8db83d3568634d863b55fc5032ffbbd802318c9a290c7d49425aab45dd4",
+          "sha256": "090b1b3fcdb69b9a89a28a161e1eafbbb31784ed06e829cba38154ff1e9ece9b",
+          "sha1": "ef8381e095ad1c8df6f995700ae9fc15bb4e32dc",
+          "md5": "01026994d7c7c45833f7cfaa8b861d26"
+        }
+      ]
+    }
+  ]
+}
