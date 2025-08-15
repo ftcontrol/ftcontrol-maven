@@ -1,0 +1,210 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bylazar",
+    "module": "ftcontrol",
+    "version": "0.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ftcontrol-0.2.1.aar",
+          "url": "ftcontrol-0.2.1.aar",
+          "size": 22369165,
+          "sha512": "9d408cb131e704308cc36e1b38f68f5513d079710511334c4cf06c5ae77c760260447b36d3a2e13c94add12e7993bc67be4207ba999d8bcce875b8af87ee34cc",
+          "sha256": "3f2cb2a2f584421a4cd892ec8e529e4e37437a486698959860fe0cd7c83495ea",
+          "sha1": "36db1c735b695991427039fb698e79097710b684",
+          "md5": "14678cf7a354a04135ed07627a95ba0d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.firstinspires.ftc",
+          "module": "Inspection",
+          "version": {
+            "requires": "10.2.0"
+          }
+        },
+        {
+          "group": "org.firstinspires.ftc",
+          "module": "Blocks",
+          "version": {
+            "requires": "10.2.0"
+          }
+        },
+        {
+          "group": "org.firstinspires.ftc",
+          "module": "RobotCore",
+          "version": {
+            "requires": "10.2.0"
+          }
+        },
+        {
+          "group": "org.firstinspires.ftc",
+          "module": "RobotServer",
+          "version": {
+            "requires": "10.2.0"
+          }
+        },
+        {
+          "group": "org.firstinspires.ftc",
+          "module": "OnBotJava",
+          "version": {
+            "requires": "10.2.0"
+          }
+        },
+        {
+          "group": "org.firstinspires.ftc",
+          "module": "Hardware",
+          "version": {
+            "requires": "10.2.0"
+          }
+        },
+        {
+          "group": "org.firstinspires.ftc",
+          "module": "FtcCommon",
+          "version": {
+            "requires": "10.2.0"
+          }
+        },
+        {
+          "group": "org.firstinspires.ftc",
+          "module": "Vision",
+          "version": {
+            "requires": "10.2.0"
+          }
+        },
+        {
+          "group": "org.nanohttpd",
+          "module": "nanohttpd-websocket",
+          "version": {
+            "requires": "2.3.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "nanohttpd"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ftcontrol-0.2.1.aar",
+          "url": "ftcontrol-0.2.1.aar",
+          "size": 22369165,
+          "sha512": "9d408cb131e704308cc36e1b38f68f5513d079710511334c4cf06c5ae77c760260447b36d3a2e13c94add12e7993bc67be4207ba999d8bcce875b8af87ee34cc",
+          "sha256": "3f2cb2a2f584421a4cd892ec8e529e4e37437a486698959860fe0cd7c83495ea",
+          "sha1": "36db1c735b695991427039fb698e79097710b684",
+          "md5": "14678cf7a354a04135ed07627a95ba0d"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "ftcontrol-0.2.1-sources.jar",
+          "url": "ftcontrol-0.2.1-sources.jar",
+          "size": 69275,
+          "sha512": "31770ec8f8cb69c35247f794fe8c2eb4b75dc0a939d3bf02a37848564b44d934a248e1decf6d9d21cdf34583001cc86568a597b2e6465b319831d867f8c13930",
+          "sha256": "5c97be49ffa8767bff26a1fa3addab3cd1bc72357ab653e86ad4320a20af925e",
+          "sha1": "f167b1aa9c2a9ed0cde225fa0b81afafedc74714",
+          "md5": "2b6f2a7f17a2d69df38060ce64fe2650"
+        }
+      ]
+    }
+  ]
+}
