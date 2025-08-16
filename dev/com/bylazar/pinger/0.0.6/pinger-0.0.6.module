@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bylazar",
+    "module": "pinger",
+    "version": "0.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pinger-0.0.6.aar",
+          "url": "pinger-0.0.6.aar",
+          "size": 257943,
+          "sha512": "cf01e117db6b56ca64fa762c7677f14fa8bdd77f396d75e647772306314969c8e3a0975bd947bdb98c69ab8feff0d9f026cbeeaa9460dffe168777dfaa26cda6",
+          "sha256": "de6bd7b77aec5cc24601082298588edffb12ccbc0ab53603eb9c34b818730187",
+          "sha1": "f2ea1feaab318aa93c89cf0fa855bbc24af6c0bc",
+          "md5": "c358b5f53e0031f752ca7cd69823d489"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pinger-0.0.6.aar",
+          "url": "pinger-0.0.6.aar",
+          "size": 257943,
+          "sha512": "cf01e117db6b56ca64fa762c7677f14fa8bdd77f396d75e647772306314969c8e3a0975bd947bdb98c69ab8feff0d9f026cbeeaa9460dffe168777dfaa26cda6",
+          "sha256": "de6bd7b77aec5cc24601082298588edffb12ccbc0ab53603eb9c34b818730187",
+          "sha1": "f2ea1feaab318aa93c89cf0fa855bbc24af6c0bc",
+          "md5": "c358b5f53e0031f752ca7cd69823d489"
+        }
+      ]
+    }
+  ]
+}
