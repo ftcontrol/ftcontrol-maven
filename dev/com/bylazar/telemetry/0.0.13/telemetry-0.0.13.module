@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bylazar",
+    "module": "telemetry",
+    "version": "0.0.13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "telemetry-0.0.13.aar",
+          "url": "telemetry-0.0.13.aar",
+          "size": 235418,
+          "sha512": "fc382869b90543cba797465bbeb3fdaf9219cdc1b039e6329e06f2f1b2a670a9c46d70eca580f5290982e44fffb5fee7a870b0f71f5684e8625c8fb048c2ce68",
+          "sha256": "c786ea365c185ab1bc2ecc28f4efd4d52b35438b71b0d820302a915e1b35bcf7",
+          "sha1": "704da62465f2616fd6a416187d7262c869fb8247",
+          "md5": "aa04c5ddd74fcb2640ff71e496f33e5e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "telemetry-0.0.13.aar",
+          "url": "telemetry-0.0.13.aar",
+          "size": 235418,
+          "sha512": "fc382869b90543cba797465bbeb3fdaf9219cdc1b039e6329e06f2f1b2a670a9c46d70eca580f5290982e44fffb5fee7a870b0f71f5684e8625c8fb048c2ce68",
+          "sha256": "c786ea365c185ab1bc2ecc28f4efd4d52b35438b71b0d820302a915e1b35bcf7",
+          "sha1": "704da62465f2616fd6a416187d7262c869fb8247",
+          "md5": "aa04c5ddd74fcb2640ff71e496f33e5e"
+        }
+      ]
+    }
+  ]
+}
