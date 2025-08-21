@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bylazar",
+    "module": "lights",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lights-0.0.2.aar",
+          "url": "lights-0.0.2.aar",
+          "size": 247319,
+          "sha512": "460e2aad47271d229c0e382b03e0b47092e9d69aecbf476684a598ec6152e9dc0c30185426d38ba085a10e842ff68c6a9dfb0e46a9fa96514a55ea1b2e810d69",
+          "sha256": "184a1b49036ae6c3b5d69b4ef7c197a39f42dfe1e69cd3aa40e88cfb3fcf3b53",
+          "sha1": "2c247d27cd76810856d3fbf5234bc7ff48351274",
+          "md5": "c1811aade086b63ba155d7d55c9d2d0e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lights-0.0.2.aar",
+          "url": "lights-0.0.2.aar",
+          "size": 247319,
+          "sha512": "460e2aad47271d229c0e382b03e0b47092e9d69aecbf476684a598ec6152e9dc0c30185426d38ba085a10e842ff68c6a9dfb0e46a9fa96514a55ea1b2e810d69",
+          "sha256": "184a1b49036ae6c3b5d69b4ef7c197a39f42dfe1e69cd3aa40e88cfb3fcf3b53",
+          "sha1": "2c247d27cd76810856d3fbf5234bc7ff48351274",
+          "md5": "c1811aade086b63ba155d7d55c9d2d0e"
+        }
+      ]
+    }
+  ]
+}
