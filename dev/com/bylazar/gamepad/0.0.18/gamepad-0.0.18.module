@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bylazar",
+    "module": "gamepad",
+    "version": "0.0.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gamepad-0.0.18.aar",
+          "url": "gamepad-0.0.18.aar",
+          "size": 3005834,
+          "sha512": "6a4fcfb5bcd173880d210bf83a48a4d68d6660f1c6ae87ba63b6fc5b0adbe6e3be634ca9e21fda019f133a54902ddee3529b51cbfd0601f67a480f3d98e40726",
+          "sha256": "715fd8a3b1c445f0f5f165b96829ad793479e063b90bb79f2757dd4259ac0b78",
+          "sha1": "ffb4d70d37e79b27b4dac9faca2e5754c2d83328",
+          "md5": "8ec35e74f853d14634d9f8f621191115"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gamepad-0.0.18.aar",
+          "url": "gamepad-0.0.18.aar",
+          "size": 3005834,
+          "sha512": "6a4fcfb5bcd173880d210bf83a48a4d68d6660f1c6ae87ba63b6fc5b0adbe6e3be634ca9e21fda019f133a54902ddee3529b51cbfd0601f67a480f3d98e40726",
+          "sha256": "715fd8a3b1c445f0f5f165b96829ad793479e063b90bb79f2757dd4259ac0b78",
+          "sha1": "ffb4d70d37e79b27b4dac9faca2e5754c2d83328",
+          "md5": "8ec35e74f853d14634d9f8f621191115"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bylazar",
+    "module": "limelightproxy",
+    "version": "0.0.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "limelightproxy-0.0.11.aar",
+          "url": "limelightproxy-0.0.11.aar",
+          "size": 245864,
+          "sha512": "c697057941758e028aca49c455d07153b2d317605f361dbaa7f5a3339d3836dc1302baede19127a8ee993207ab68ec04f1524c3cb5a9262767883185914a033c",
+          "sha256": "2a0feb14c5782f57e6def71a40ce8024421163d6d6cb95773e6a355992283531",
+          "sha1": "39ecebaa4fbadd517f31713bf6ef65a1ac04a83e",
+          "md5": "33a3f8a2b9b80185fe29b34c87439874"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "limelightproxy-0.0.11.aar",
+          "url": "limelightproxy-0.0.11.aar",
+          "size": 245864,
+          "sha512": "c697057941758e028aca49c455d07153b2d317605f361dbaa7f5a3339d3836dc1302baede19127a8ee993207ab68ec04f1524c3cb5a9262767883185914a033c",
+          "sha256": "2a0feb14c5782f57e6def71a40ce8024421163d6d6cb95773e6a355992283531",
+          "sha1": "39ecebaa4fbadd517f31713bf6ef65a1ac04a83e",
+          "md5": "33a3f8a2b9b80185fe29b34c87439874"
+        }
+      ]
+    }
+  ]
+}

@@ -3,8 +3,8 @@
   <groupId>com.bylazar</groupId>
   <artifactId>panels</artifactId>
   <versioning>
-    <latest>0.0.20</latest>
-    <release>0.0.20</release>
+    <latest>0.0.30</latest>
+    <release>0.0.30</release>
     <versions>
       <version>0.0.2</version>
       <version>0.0.4</version>
@@ -24,7 +24,17 @@
       <version>0.0.18</version>
       <version>0.0.19</version>
       <version>0.0.20</version>
+      <version>0.0.21</version>
+      <version>0.0.22</version>
+      <version>0.0.23</version>
+      <version>0.0.24</version>
+      <version>0.0.25</version>
+      <version>0.0.26</version>
+      <version>0.0.27</version>
+      <version>0.0.28</version>
+      <version>0.0.29</version>
+      <version>0.0.30</version>
     </versions>
-    <lastUpdated>20250815173350</lastUpdated>
+    <lastUpdated>20250821225922</lastUpdated>
   </versioning>
 </metadata>

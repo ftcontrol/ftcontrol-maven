@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bylazar",
+    "module": "opmodecontrol",
+    "version": "0.0.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opmodecontrol-0.0.11.aar",
+          "url": "opmodecontrol-0.0.11.aar",
+          "size": 875135,
+          "sha512": "2674be1213f126a1bbc8aecae0bb2303f9ae767c682919497c27056c9722e8838eec1419fa6d75034151e0a49051f9fd1e66485e247b1b066a1d43add87c10bc",
+          "sha256": "715991ff5aad65a79c00a1f63b31e1fcc6df6514d56be98bf05b10d521a76094",
+          "sha1": "024a49481f5983b45ae1f853967d7c783dbc60fa",
+          "md5": "910f58695100be253cc508e477526576"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opmodecontrol-0.0.11.aar",
+          "url": "opmodecontrol-0.0.11.aar",
+          "size": 875135,
+          "sha512": "2674be1213f126a1bbc8aecae0bb2303f9ae767c682919497c27056c9722e8838eec1419fa6d75034151e0a49051f9fd1e66485e247b1b066a1d43add87c10bc",
+          "sha256": "715991ff5aad65a79c00a1f63b31e1fcc6df6514d56be98bf05b10d521a76094",
+          "sha1": "024a49481f5983b45ae1f853967d7c783dbc60fa",
+          "md5": "910f58695100be253cc508e477526576"
+        }
+      ]
+    }
+  ]
+}
