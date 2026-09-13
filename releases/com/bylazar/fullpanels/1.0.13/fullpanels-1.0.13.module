@@ -1,0 +1,300 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bylazar",
+    "module": "fullpanels",
+    "version": "1.0.13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.bylazar",
+          "module": "panels",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "opmodecontrol",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "telemetry",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "configurables",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "themes",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "capture",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "limelightproxy",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "gamepad",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "field",
+          "version": {
+            "requires": "1.0.7"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "docs",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "battery",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "utils",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "pinger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "graph",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "lights",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "camerastream",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fullpanels-1.0.13.aar",
+          "url": "fullpanels-1.0.13.aar",
+          "size": 54454,
+          "sha512": "db172d66ac686c57aafbf413245ea2e380d83f4f3ba9013c5c023700a5de1a2c338a1cb5b820885582b55997429bfea2cbde16658272af8da26729ad2fa366e7",
+          "sha256": "d025c9d6223060f5aec792203f894522794c8e540c902c1ac209f6cb4c3d15c0",
+          "sha1": "3bd4f17ff2542e3291bde9fd175ac9890ca0f103",
+          "md5": "f1c65c9e06f849136db82bcda4ddec0e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.bylazar",
+          "module": "panels",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "opmodecontrol",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "telemetry",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "configurables",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "themes",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "capture",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "limelightproxy",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "gamepad",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "field",
+          "version": {
+            "requires": "1.0.7"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "docs",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "battery",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "utils",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "pinger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "graph",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "lights",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "com.bylazar",
+          "module": "camerastream",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fullpanels-1.0.13.aar",
+          "url": "fullpanels-1.0.13.aar",
+          "size": 54454,
+          "sha512": "db172d66ac686c57aafbf413245ea2e380d83f4f3ba9013c5c023700a5de1a2c338a1cb5b820885582b55997429bfea2cbde16658272af8da26729ad2fa366e7",
+          "sha256": "d025c9d6223060f5aec792203f894522794c8e540c902c1ac209f6cb4c3d15c0",
+          "sha1": "3bd4f17ff2542e3291bde9fd175ac9890ca0f103",
+          "md5": "f1c65c9e06f849136db82bcda4ddec0e"
+        }
+      ]
+    }
+  ]
+}
