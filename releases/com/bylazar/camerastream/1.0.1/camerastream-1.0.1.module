@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bylazar",
+    "module": "camerastream",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "camerastream-1.0.1.aar",
+          "url": "camerastream-1.0.1.aar",
+          "size": 279566,
+          "sha512": "d3cce7cf160d8725a5a1c0855f4244ead87ce4ecc6a69da1222478962cbb943815443e79b239a3147ec32071e40490ffbaf644e9ffbb11acccc8c8f3a4c1ffe3",
+          "sha256": "c9389e6f0f9c240997f1f4eb5922799e20c322e594bd01fd23006d39794b729e",
+          "sha1": "d432c98c3f0fd764428f627c075bee201acd8d2f",
+          "md5": "487e80e694fdef5ee596cba9fa6881ab"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "camerastream-1.0.1.aar",
+          "url": "camerastream-1.0.1.aar",
+          "size": 279566,
+          "sha512": "d3cce7cf160d8725a5a1c0855f4244ead87ce4ecc6a69da1222478962cbb943815443e79b239a3147ec32071e40490ffbaf644e9ffbb11acccc8c8f3a4c1ffe3",
+          "sha256": "c9389e6f0f9c240997f1f4eb5922799e20c322e594bd01fd23006d39794b729e",
+          "sha1": "d432c98c3f0fd764428f627c075bee201acd8d2f",
+          "md5": "487e80e694fdef5ee596cba9fa6881ab"
+        }
+      ]
+    }
+  ]
+}
