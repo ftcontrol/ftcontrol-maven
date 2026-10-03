@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bylazar",
+    "module": "opmodecontrol",
+    "version": "1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opmodecontrol-1.0.5.aar",
+          "url": "opmodecontrol-1.0.5.aar",
+          "size": 1008092,
+          "sha512": "0740a24642a5951d61e3bc529948fe30fe0d447f57081a2c1c905d0a03cf8a1bcec0d572f1ee7c877f50cf7d872d19be0483c0742605e9c6be31b68f5a2038b4",
+          "sha256": "283cb0a0656c0fad150fac8eb312156d1cea7ddcbbead407ee8614f40bb4a87a",
+          "sha1": "4f5fcd7fe4904455f1cb52b3592fd5cc01cdc4a0",
+          "md5": "e07c0ca7e8aab0a2b39d661f79502131"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.frozenmilk.sinister",
+          "module": "Sloth",
+          "version": {
+            "strictly": "0.3.2",
+            "requires": "0.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opmodecontrol-1.0.5.aar",
+          "url": "opmodecontrol-1.0.5.aar",
+          "size": 1008092,
+          "sha512": "0740a24642a5951d61e3bc529948fe30fe0d447f57081a2c1c905d0a03cf8a1bcec0d572f1ee7c877f50cf7d872d19be0483c0742605e9c6be31b68f5a2038b4",
+          "sha256": "283cb0a0656c0fad150fac8eb312156d1cea7ddcbbead407ee8614f40bb4a87a",
+          "sha1": "4f5fcd7fe4904455f1cb52b3592fd5cc01cdc4a0",
+          "md5": "e07c0ca7e8aab0a2b39d661f79502131"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opmodecontrol-1.0.5-sources.jar",
+          "url": "opmodecontrol-1.0.5-sources.jar",
+          "size": 2988,
+          "sha512": "bc82c254afd8a45cb8a93e1660153cce106f1e1ac7f3b1d43de2abd2499e41b1f9bb363d1806f7fcfb3cda4d88316e209bf417235c7762ad4db0cfb061066a74",
+          "sha256": "df7a8cac79376fd78cfdb4987f887387ca3a764137497c53854a5df195606e85",
+          "sha1": "f58820c9bedcf2b63af89dfdd60c0cf2cb34902b",
+          "md5": "9e136381b814a6668782e2208cd77eb9"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bylazar",
+    "module": "limelightproxy",
+    "version": "1.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "limelightproxy-1.0.6.aar",
+          "url": "limelightproxy-1.0.6.aar",
+          "size": 1492132,
+          "sha512": "fe4c6a1f9090cd8ccd08111e44de5e1e8751f700855b9e41bbaa764678712d172395cb01892648efe29b528f809456c0d9f9c1f9d877fc5f2b975bad43054e87",
+          "sha256": "3bb894a963ae4ac97607695e5b0eb63265d2e6a8f655b1ef8e3357c03032e587",
+          "sha1": "66bf9727574282d1f87db4bcfea455ca15a2ed20",
+          "md5": "3a9426ab28ad22351d86111eb7c62361"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "limelightproxy-1.0.6.aar",
+          "url": "limelightproxy-1.0.6.aar",
+          "size": 1492132,
+          "sha512": "fe4c6a1f9090cd8ccd08111e44de5e1e8751f700855b9e41bbaa764678712d172395cb01892648efe29b528f809456c0d9f9c1f9d877fc5f2b975bad43054e87",
+          "sha256": "3bb894a963ae4ac97607695e5b0eb63265d2e6a8f655b1ef8e3357c03032e587",
+          "sha1": "66bf9727574282d1f87db4bcfea455ca15a2ed20",
+          "md5": "3a9426ab28ad22351d86111eb7c62361"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "limelightproxy-1.0.6-sources.jar",
+          "url": "limelightproxy-1.0.6-sources.jar",
+          "size": 5957,
+          "sha512": "e6e95a563e144c5d16adcc19b7a5542b29e45d17c5d0133a6c0d725ac95b049251d83d81446402781de5e6543e2b7f9211b1b8ec56f0939da48c0d7d82079d6b",
+          "sha256": "ab4b575dafdcd7bfeaa2589f69a7842d52dac5343fd0b66128eec4153dc636bc",
+          "sha1": "53849b7b0121e619f437f5522388b387906bc213",
+          "md5": "f553ba656352c7fdf5529dab3df27668"
+        }
+      ]
+    }
+  ]
+}

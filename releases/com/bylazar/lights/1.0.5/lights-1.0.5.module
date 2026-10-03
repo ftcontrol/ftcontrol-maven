@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bylazar",
+    "module": "lights",
+    "version": "1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lights-1.0.5.aar",
+          "url": "lights-1.0.5.aar",
+          "size": 432376,
+          "sha512": "029daa1fbd3e64d3f508678282dab2e4414fe58719fedb46991761165a323457430cbd79efb3b87751d121da95091c26cdbcf8336241b093e55adbdd7938f113",
+          "sha256": "2c7ac691c3d08fbb15c777111a57eed8a1372fbf31a1d534495f6a38b310077d",
+          "sha1": "f789408d59de473a3054419e5f73086a13451217",
+          "md5": "c4344a96bc30623f106701038f19b8d8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lights-1.0.5.aar",
+          "url": "lights-1.0.5.aar",
+          "size": 432376,
+          "sha512": "029daa1fbd3e64d3f508678282dab2e4414fe58719fedb46991761165a323457430cbd79efb3b87751d121da95091c26cdbcf8336241b093e55adbdd7938f113",
+          "sha256": "2c7ac691c3d08fbb15c777111a57eed8a1372fbf31a1d534495f6a38b310077d",
+          "sha1": "f789408d59de473a3054419e5f73086a13451217",
+          "md5": "c4344a96bc30623f106701038f19b8d8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lights-1.0.5-sources.jar",
+          "url": "lights-1.0.5-sources.jar",
+          "size": 2814,
+          "sha512": "b86b5a57b324d5632e4379916a59b4ca7bc80d0df1f62cc14961501894f724c7dc01a675c22f11d71a45246c1f4bfdbac807cd37977b2087ab1472df100c4e61",
+          "sha256": "ea9a72a00f6e97badacd85fb957dd24e74eb0fbb660a54751aff0db8a669ca2e",
+          "sha1": "44be9c6eb467fd78d5b7fbcca9814a5bb037dec5",
+          "md5": "73a168347fb1cefd08f15d105a356136"
+        }
+      ]
+    }
+  ]
+}

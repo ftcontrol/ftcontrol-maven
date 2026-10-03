@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bylazar",
+    "module": "pinger",
+    "version": "1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pinger-1.0.5.aar",
+          "url": "pinger-1.0.5.aar",
+          "size": 47898,
+          "sha512": "7a339d861cfb814710d62baa76f0c5df62a98d96e9bd0a647e6f1a0fa3a0eb3cf1d229e92c4900fcefc19da3d586366ad1f59e00bcec4814bfe27d3fa2f6c57c",
+          "sha256": "33245afcb351991442aeca05acebdc238236cc99ab3912c699e700e36f712067",
+          "sha1": "cd3fd7b6bf310c128a5fa31a2f8f7e000551815f",
+          "md5": "340514e65a918663733f5303c0c6f369"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pinger-1.0.5.aar",
+          "url": "pinger-1.0.5.aar",
+          "size": 47898,
+          "sha512": "7a339d861cfb814710d62baa76f0c5df62a98d96e9bd0a647e6f1a0fa3a0eb3cf1d229e92c4900fcefc19da3d586366ad1f59e00bcec4814bfe27d3fa2f6c57c",
+          "sha256": "33245afcb351991442aeca05acebdc238236cc99ab3912c699e700e36f712067",
+          "sha1": "cd3fd7b6bf310c128a5fa31a2f8f7e000551815f",
+          "md5": "340514e65a918663733f5303c0c6f369"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pinger-1.0.5-sources.jar",
+          "url": "pinger-1.0.5-sources.jar",
+          "size": 1471,
+          "sha512": "f7fb843da31c1f48d528b8fdb3378dc6438726229c1e23007a270f518f38a3d975ebe0215c002a1c0b9d5440e03de77775981b2a0d8507a62c434d87b19d6378",
+          "sha256": "e708fddc496f543dda1f4e245332c2f234e7dff0d1bfd79babfd00223ac0cdcf",
+          "sha1": "a5464361341fac0f2821f5119e36b8342d0052cf",
+          "md5": "d15fa64d08c5804f25113c1e9d3838fd"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Published artifact bytes must remain identical to their checksum sidecars.
+releases/** -text

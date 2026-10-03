@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bylazar",
+    "module": "panels",
+    "version": "1.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "panels-1.0.7.aar",
+          "url": "panels-1.0.7.aar",
+          "size": 717705,
+          "sha512": "b8c7ebaa06998d682af0a2ec9fe99391508f7b8153a0b94663b2a9f722a3c8756e2ef9adb5d0eb12e4f6b671a84fe177870d74c9e02302d70aa9e4cb9e34d201",
+          "sha256": "e21066274246e32c863cd07559075f5e4b044447d9c8c4453b7de397401c3e09",
+          "sha1": "78349211aa085e4a444c7c4cd99dc0effb1f7390",
+          "md5": "6689113a05f3ee8753c9ced4e2435e48"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "strictly": "1.2.0",
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.nanohttpd",
+          "module": "nanohttpd-websocket",
+          "version": {
+            "requires": "2.3.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "nanohttpd"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "org.tukaani",
+          "module": "xz",
+          "version": {
+            "requires": "1.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "panels-1.0.7.aar",
+          "url": "panels-1.0.7.aar",
+          "size": 717705,
+          "sha512": "b8c7ebaa06998d682af0a2ec9fe99391508f7b8153a0b94663b2a9f722a3c8756e2ef9adb5d0eb12e4f6b671a84fe177870d74c9e02302d70aa9e4cb9e34d201",
+          "sha256": "e21066274246e32c863cd07559075f5e4b044447d9c8c4453b7de397401c3e09",
+          "sha1": "78349211aa085e4a444c7c4cd99dc0effb1f7390",
+          "md5": "6689113a05f3ee8753c9ced4e2435e48"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "panels-1.0.7-sources.jar",
+          "url": "panels-1.0.7-sources.jar",
+          "size": 20663,
+          "sha512": "2410589fb9161063f14685367dfe297354e40457bd84ea636f15fb680d969703d6a52617a3990b5a7a97cb12c92f780f7df2f958b772c5b4a6c7fdaeb88f2a60",
+          "sha256": "aefba7eff460cb2ce06fc8a4183a3b6f9dd507188fb15104693f177a7f9261ab",
+          "sha1": "5ed2f133ef69f8b7e5c75ca303f074829dcd1426",
+          "md5": "44e9f41670e8334eb86becc9b03f60aa"
+        }
+      ]
+    }
+  ]
+}
